@@ -1,11 +1,13 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
-
 int main() {
-    cout << "Hello CHEW!\n";
-    cout << "Age : " << 18;
-    cout << "\nHello Babi";
+    string name;
+    cout << "Please type your name : ";
+    getline(cin,name);
+
+    cout << "Hello My name is " << name;
     return 0;
 }
 
