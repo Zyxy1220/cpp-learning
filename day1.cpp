@@ -7,7 +7,12 @@ int main() {
     cout << "Please type your name : ";
     getline(cin,name);
 
-    cout << "Hello My name is " << name;
+    int age;
+    cout << "Please type your age : ";
+    cin >> age;
+
+    cout << "Hello My name is " << name <<". I am "<< age <<" years old.";
+
     return 0;
 }
 
